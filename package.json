@@ -19,7 +19,8 @@
     "eject": "react-scripts eject",
     "predeploy": "rm -rf build && npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://klimetyonok.github.io/react-1"
+    "homepage": "https://klimetyonok.github.io/react-1",
+    "format": "prettier --ignore-path .gitignore --write ."
   },
   "eslintConfig": {
     "extends": [
